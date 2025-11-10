@@ -7,9 +7,32 @@ const TopProduct = () => {
     const { cardsItems } = useData();
     const topRating = cardsItems.filter(card => card.rating > 4);
 
+    // 🔹 Dynamic Color Function
+    const getDiscountColor = (discount) => {
+        if (discount.includes('10')) return 'bg-red-500';
+        if (discount.includes('12')) return 'bg-orange-500';
+        if (discount.includes('20')) return 'bg-yellow-500';
+        return 'bg-[#3bb77e]'; // default
+    };
+
+    const getStatusColor = (status) => {
+        switch (status) {
+            case 'Hot':
+                return 'bg-red-400';
+            case 'New':
+                return 'bg-blue-400';
+            case 'Sale':
+                return 'bg-pink-400';
+            case 'Trending':
+                return 'bg-purple-400';
+            default:
+                return 'bg-sky-300'; // default
+        }
+    };
+
     return (
         <div className='max-w-[1400px] mx-auto ml-10 my-10'>
-            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 '>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5'>
                 {topRating.map(item => (
                     <div key={item.id} className='bg-amber-50 w-60 p-4 rounded-lg space-y-2 relative shadow-md hover:shadow-lg transition'>
                         <div className='bg-white flex justify-center rounded-lg'>
@@ -54,6 +77,16 @@ const TopProduct = () => {
                             <button className='bg-[#3bb77e] rounded-full p-2 cursor-pointer hover:bg-green-500'>
                                 <IoIosCart fontSize={20} />
                             </button>
+                        </div>
+
+                        {/* 🔹 Discount Badge */}
+                        <div className={`absolute top-0 left-0 text-white ${getDiscountColor(item.discount)} px-4 py-0.5 rounded-tl-2xl rounded-br-2xl`}>
+                            <p>{item.discount}</p>
+                        </div>
+
+                        {/* 🔹 Status Badge */}
+                        <div className={`absolute right-0 top-0 text-white ${getStatusColor(item.status)} px-4 py-0.5 rounded-tr-2xl rounded-bl-2xl`}>
+                            <p>{item.status}</p>
                         </div>
                     </div>
                 ))}
