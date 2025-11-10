@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+*{
+  font-family: "Quicksand", sans-serif;
+}
+
+.heading{
+  color: #3bb77e;
+}
+
+.bgcpr{
+  background-color: #3bb77e;
+  color: white;
+}
+
+.cpr{
+  color: #253d4e;
+}

@@ -1,0 +1,422 @@
+[
+    {
+        "id": 1,
+        "category": "Cake & Milk",
+        "name": "Fresh Creamy Milk Cake",
+        "brand": "SweetFarm",
+        "price": {
+            "current": 24.50,
+            "old": 27.00
+        },
+        "discount": "9%",
+        "status": "Hot",
+        "image": "/images/products/milk-cake.png",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "category": "Organic Kiwi",
+        "name": "Green Organic Kiwi Box",
+        "brand": "Nature’s Pick",
+        "price": {
+            "current": 15.25,
+            "old": 18.00
+        },
+        "discount": "15%",
+        "status": "Sale",
+        "image": "/images/products/organic-kiwi.png",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "category": "Peach",
+        "name": "Juicy California Peach Pack",
+        "brand": "SunFresh",
+        "price": {
+            "current": 19.50,
+            "old": 23.00
+        },
+        "discount": "12%",
+        "status": "New",
+        "image": "/images/products/peach-pack.png",
+        "rating": 3
+    },
+    {
+        "id": 4,
+        "category": "Read Apple",
+        "name": "Fresh Red Apple Basket",
+        "brand": "AppleTree",
+        "price": {
+            "current": 22.75,
+            "old": 25.00
+        },
+        "discount": "9%",
+        "status": "Hot",
+        "image": "/images/products/red-apple.png",
+        "rating": 5
+    },
+    {
+        "id": 5,
+        "category": "Snacks",
+        "name": "Crunchy Potato Chips Mix",
+        "brand": "Snackify",
+        "price": {
+            "current": 8.99,
+            "old": 10.50
+        },
+        "discount": "14%",
+        "status": "Sale",
+        "image": "/images/products/potato-chips.png",
+        "rating": 4
+    },
+    {
+        "id": 6,
+        "category": "Vegetables",
+        "name": "Fresh Lettuce Head",
+        "brand": "GreenWorld",
+        "price": {
+            "current": 5.25,
+            "old": 6.00
+        },
+        "discount": "12%",
+        "status": "New",
+        "image": "/images/products/lettuce.png",
+        "rating": 5
+    },
+    {
+        "id": 7,
+        "category": "Strawberry",
+        "name": "Organic Strawberry Box",
+        "brand": "BerryLand",
+        "price": {
+            "current": 14.90,
+            "old": 17.50
+        },
+        "discount": "15%",
+        "status": "Hot",
+        "image": "/images/products/strawberry.png",
+        "rating": 5
+    },
+    {
+        "id": 8,
+        "category": "Black plum",
+        "name": "Sweet Black Plum Pack",
+        "brand": "FruitCraft",
+        "price": {
+            "current": 11.20,
+            "old": 13.00
+        },
+        "discount": "13%",
+        "status": "Sale",
+        "image": "/images/products/black-plum.png",
+        "rating": 2
+    },
+    {
+        "id": 9,
+        "category": "Custard apple",
+        "name": "Fresh Custard Apple",
+        "brand": "FarmKing",
+        "price": {
+            "current": 18.40,
+            "old": 20.00
+        },
+        "discount": "8%",
+        "status": "New",
+        "image": "/images/products/custard-apple.png",
+        "rating": 4
+    },
+    {
+        "id": 10,
+        "category": "Coffee & Tea",
+        "name": "Premium Coffee Beans",
+        "brand": "RoastHub",
+        "price": {
+            "current": 12.99,
+            "old": 15.00
+        },
+        "discount": "13%",
+        "status": "Hot",
+        "image": "/images/products/coffee-beans.png",
+        "rating": 5
+    },
+    {
+        "id": 11,
+        "category": "Snacks",
+        "name": "Peanut Butter Protein Bar",
+        "brand": "SnackPro",
+        "price": {
+            "current": 9.85,
+            "old": 11.50
+        },
+        "discount": "14%",
+        "status": "Sale",
+        "image": "/images/products/protein-bar.png",
+        "rating": 3
+    },
+    {
+        "id": 12,
+        "category": "Vegetables",
+        "name": "Fresh Broccoli",
+        "brand": "VeggiLand",
+        "price": {
+            "current": 6.40,
+            "old": 7.00
+        },
+        "discount": "8%",
+        "status": "New",
+        "image": "/images/products/broccoli.png",
+        "rating": 5
+    },
+    {
+        "id": 13,
+        "category": "Cake & Milk",
+        "name": "Chocolate Cream Cake",
+        "brand": "SweetFarm",
+        "price": {
+            "current": 25.00,
+            "old": 28.50
+        },
+        "discount": "12%",
+        "status": "Sale",
+        "image": "/images/products/chocolate-cake.png",
+        "rating": 5
+    },
+    {
+        "id": 14,
+        "category": "Read Apple",
+        "name": "Apple Juice Bottle",
+        "brand": "FruitTree",
+        "price": {
+            "current": 9.25,
+            "old": 10.00
+        },
+        "discount": "7%",
+        "status": "Hot",
+        "image": "/images/products/apple-juice.png",
+        "rating": 4
+    },
+    {
+        "id": 15,
+        "category": "Coffee & Tea",
+        "name": "Herbal Green Tea Pack",
+        "brand": "Leafy",
+        "price": {
+            "current": 11.50,
+            "old": 13.00
+        },
+        "discount": "12%",
+        "status": "New",
+        "image": "/images/products/green-tea.png",
+        "rating": 5
+    },
+    {
+        "id": 16,
+        "category": "Organic Kiwi",
+        "name": "Kiwi Smoothie Mix",
+        "brand": "Nature’s Pick",
+        "price": {
+            "current": 17.20,
+            "old": 19.00
+        },
+        "discount": "9%",
+        "status": "Hot",
+        "image": "/images/products/kiwi-smoothie.png",
+        "rating": 4
+    },
+    {
+        "id": 17,
+        "category": "Strawberry",
+        "name": "Strawberry Yogurt Cup",
+        "brand": "BerryLand",
+        "price": {
+            "current": 8.10,
+            "old": 9.50
+        },
+        "discount": "15%",
+        "status": "Sale",
+        "image": "/images/products/strawberry-yogurt.png",
+        "rating": 2
+    },
+    {
+        "id": 18,
+        "category": "Vegetables",
+        "name": "Organic Cabbage",
+        "brand": "FarmKing",
+        "price": {
+            "current": 4.90,
+            "old": 5.50
+        },
+        "discount": "10%",
+        "status": "Hot",
+        "image": "/images/products/cabbage.png",
+        "rating": 3
+    },
+    {
+        "id": 19,
+        "category": "Custard apple",
+        "name": "Custard Apple Shake Mix",
+        "brand": "SweetFruit",
+        "price": {
+            "current": 16.70,
+            "old": 18.00
+        },
+        "discount": "7%",
+        "status": "New",
+        "image": "/images/products/custard-shake.png",
+        "rating": 5
+    },
+    {
+        "id": 20,
+        "category": "Peach",
+        "name": "Peach Flavored Yogurt",
+        "brand": "SunFresh",
+        "price": {
+            "current": 13.90,
+            "old": 15.50
+        },
+        "discount": "10%",
+        "status": "Sale",
+        "image": "/images/products/peach-yogurt.png",
+        "rating": 3
+    },
+    {
+        "id": 21,
+        "category": "Cake & Milk",
+        "name": "Soft Vanilla Cream Cake",
+        "brand": "SweetFarm",
+        "price": {
+            "current": 26.40,
+            "old": 29.00
+        },
+        "discount": "9%",
+        "status": "Hot",
+        "image": "/images/products/vanilla-cake.png",
+        "rating": 5
+    },
+    {
+        "id": 22,
+        "category": "Snacks",
+        "name": "Baked Nacho Chips",
+        "brand": "Snackify",
+        "price": {
+            "current": 9.50,
+            "old": 10.50
+        },
+        "discount": "9%",
+        "status": "New",
+        "image": "/images/products/nacho-chips.png",
+        "rating": 4
+    },
+    {
+        "id": 23,
+        "category": "Coffee & Tea",
+        "name": "Classic Milk Tea",
+        "brand": "RoastHub",
+        "price": {
+            "current": 9.20,
+            "old": 10.00
+        },
+        "discount": "8%",
+        "status": "Sale",
+        "image": "/images/products/milk-tea.png",
+        "rating": 2
+    },
+    {
+        "id": 24,
+        "category": "Black plum",
+        "name": "Black Plum Jam",
+        "brand": "FruitCraft",
+        "price": {
+            "current": 10.40,
+            "old": 12.00
+        },
+        "discount": "13%",
+        "status": "Hot",
+        "image": "/images/products/plum-jam.png",
+        "rating": 5
+    },
+    {
+        "id": 25,
+        "category": "Organic Kiwi",
+        "name": "Kiwi Fruit Juice",
+        "brand": "Nature’s Pick",
+        "price": {
+            "current": 14.60,
+            "old": 16.00
+        },
+        "discount": "9%",
+        "status": "Sale",
+        "image": "/images/products/kiwi-juice.png",
+        "rating": 1
+    },
+    {
+        "id": 26,
+        "category": "Vegetables",
+        "name": "Tomato Pack Fresh",
+        "brand": "GreenWorld",
+        "price": {
+            "current": 5.10,
+            "old": 6.00
+        },
+        "discount": "15%",
+        "status": "New",
+        "image": "/images/products/tomato.png",
+        "rating": 3
+    },
+    {
+        "id": 27,
+        "category": "Strawberry",
+        "name": "Strawberry Jam Jar",
+        "brand": "BerryLand",
+        "price": {
+            "current": 9.30,
+            "old": 10.50
+        },
+        "discount": "12%",
+        "status": "Hot",
+        "image": "/images/products/strawberry-jam.png",
+        "rating": 5
+    },
+    {
+        "id": 28,
+        "category": "Peach",
+        "name": "Peach Ice Cream",
+        "brand": "SunFresh",
+        "price": {
+            "current": 11.20,
+            "old": 13.00
+        },
+        "discount": "14%",
+        "status": "New",
+        "image": "/images/products/peach-icecream.png",
+        "rating": 4
+    },
+    {
+        "id": 29,
+        "category": "Custard apple",
+        "name": "Custard Apple Cream Dessert",
+        "brand": "SweetFruit",
+        "price": {
+            "current": 17.80,
+            "old": 19.00
+        },
+        "discount": "6%",
+        "status": "Sale",
+        "image": "/images/products/custard-dessert.png",
+        "rating": 2
+    },
+    {
+        "id": 30,
+        "category": "Snacks",
+        "name": "Honey Roasted Nuts",
+        "brand": "Snackify",
+        "price": {
+            "current": 8.60,
+            "old": 9.50
+        },
+        "discount": "9%",
+        "status": "Hot",
+        "image": "/images/products/honey-nuts.png",
+        "rating": 5
+    }
+]
