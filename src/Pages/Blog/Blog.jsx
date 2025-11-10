@@ -128,6 +128,7 @@ const Blog = () => {
                     />
                 </div>
             </div>
+            <img src={banner} className="mt-16" alt="" />
         </div>
     );
 };
