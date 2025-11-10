@@ -18,7 +18,7 @@ const Section1 = () => {
                                     Welcome to Nest
                                 </h2>
             
-                                <p className="text leading-relaxed">
+                                <p className="text leading-relaxed ">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                 </p>
