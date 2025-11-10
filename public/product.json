@@ -40,7 +40,7 @@
         },
         "discount": "12%",
         "status": "New",
-        "image": "/images/products/peach-pack.png",
+        "image": "../src/assets/images/All Natural Style Chicken Meatballs.png",
         "rating": 3.0,
         "review": 42
     },
@@ -115,7 +115,7 @@
         },
         "discount": "13%",
         "status": "Sale",
-        "image": "/images/products/black-plum.png",
+        "image": "../src/assets/images/Angie's  Sweet & Salty Kettle Corn.png",
         "rating": 2.0,
         "review": 25
     },
@@ -130,7 +130,7 @@
         },
         "discount": "8%",
         "status": "New",
-        "image": "/images/products/custard-apple.png",
+        "image": "../src/assets/images/Blue_Diamond.png",
         "rating": 3.0,
         "review": 40
     },
@@ -160,7 +160,7 @@
         },
         "discount": "14%",
         "status": "Sale",
-        "image": "/images/products/protein-bar.png",
+        "image": "../src/assets/images/Blue Almonds Lightly Salted Vegetables.png",
         "rating": 3.0,
         "review": 35
     },
@@ -175,7 +175,7 @@
         },
         "discount": "8%",
         "status": "New",
-        "image": "/images/products/broccoli.png",
+        "image": "../src/assets/images/Boomchickapop.png",
         "rating": 3.5,
         "review": 28
     },
@@ -190,7 +190,7 @@
         },
         "discount": "12%",
         "status": "Sale",
-        "image": "/images/products/chocolate-cake.png",
+        "image": "../src/assets/images/Canada Dry Ginger Ale – 2 L Bottle.png",
         "rating": 3.6,
         "review": 32
     },
@@ -205,7 +205,7 @@
         },
         "discount": "7%",
         "status": "Hot",
-        "image": "/images/products/apple-juice.png",
+        "image": "../src/assets/images/Canada_Dry.png",
         "rating": 4.0,
         "review": 50
     },
@@ -235,7 +235,7 @@
         },
         "discount": "9%",
         "status": "Hot",
-        "image": "/images/products/kiwi-smoothie.png",
+        "image": "../src/assets/images/Chicken_Meatballs.png",
         "rating": 4.0,
         "review": 72
     },
@@ -250,7 +250,7 @@
         },
         "discount": "15%",
         "status": "Sale",
-        "image": "/images/products/strawberry-yogurt.png",
+        "image": "../src/assets/images/Cone_Ice_Cream.png",
         "rating": 2.0,
         "review": 20
     },
@@ -265,7 +265,7 @@
         },
         "discount": "10%",
         "status": "Hot",
-        "image": "/images/products/cabbage.png",
+        "image": "../src/assets/images/Organic Cage Grade A Large  Eggs.png",
         "rating": 3.0,
         "review": 30
     },
@@ -295,7 +295,7 @@
         },
         "discount": "10%",
         "status": "Sale",
-        "image": "/images/products/peach-yogurt.png",
+        "image": "../src/assets/images/Encore Seafoods Stuffed Alaskan.png",
         "rating": 3.5,
         "review": 38
     },
@@ -340,7 +340,7 @@
         },
         "discount": "8%",
         "status": "Sale",
-        "image": "/images/products/milk-tea.png",
+        "image": "https://i.ibb.co.com/21bGt9vJ/Herbal-Green-Tea-Pack-removebg-preview.png",
         "rating": 2.5,
         "review": 18
     },
@@ -355,7 +355,7 @@
         },
         "discount": "13%",
         "status": "Hot",
-        "image": "https://ibb.co.com/FLtmR2M2",
+        "image": "../src/assets/images/Blue_Diamond.png",
         "rating": 3.6,
         "review": 22
     },
@@ -370,7 +370,7 @@
         },
         "discount": "9%",
         "status": "Sale",
-        "image": "/images/products/kiwi-juice.png",
+        "image": "../src/assets/images/Organic Cage Grade A Large  Eggs.png",
         "rating": 1.0,
         "review": 10
     },
@@ -385,7 +385,7 @@
         },
         "discount": "15%",
         "status": "New",
-        "image": "/images/products/tomato.png",
+        "image": "../src/assets/images/Seeds.png",
         "rating": 3.0,
         "review": 32
     },
@@ -415,7 +415,7 @@
         },
         "discount": "14%",
         "status": "New",
-        "image": "/images/products/peach-icecream.png",
+        "image": "../src/assets/images/Vanilla_Greek.png",
         "rating": 4.0,
         "review": 45
     },
@@ -430,7 +430,7 @@
         },
         "discount": "6%",
         "status": "Sale",
-        "image": "/images/products/custard-dessert.png",
+        "image": "https://i.ibb.co.com/yBm0Vttk/Fresh-Red-Apple-Basket-removebg-preview.png",
         "rating": 2.0,
         "review": 20
     },
