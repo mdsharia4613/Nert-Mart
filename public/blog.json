@@ -1,0 +1,38 @@
+{
+    "helpTopics": [
+        {
+            "id": 1,
+            "title": "01. Visit Feedback",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla harum cum distinctio pariatur."
+        },
+        {
+            "id": 2,
+            "title": "02. Employer Services",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla harum cum distinctio pariatur."
+        },
+        {
+            "id": 3,
+            "title": "03. Billing Inquiries",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla harum cum distinctio pariatur."
+        },
+        {
+            "id": 4,
+            "title": "04. General Inquiries",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla harum cum distinctio pariatur."
+        }
+    ],
+    "offices": [
+        {
+            "title": "Office",
+            "address": "205 North Michigan Avenue, Suite 810 Chicago, 60601, USA"
+        },
+        {
+            "title": "Studio",
+            "address": "2005 Stokes Isle Apt. 896, Venaville 10010, USA"
+        },
+        {
+            "title": "Shop",
+            "address": "2715 Ash Dr. San Jose, South Dakota 83475, USA"
+        }
+    ]
+}
