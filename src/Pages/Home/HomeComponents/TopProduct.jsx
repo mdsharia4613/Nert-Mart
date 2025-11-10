@@ -8,7 +8,7 @@ const TopProduct = () => {
     const topRating = cardsItems.filter(card => card.rating > 4);
 
     return (
-        <div className='max-w-[1400px] mx-auto ml-10'>
+        <div className='max-w-[1400px] mx-auto ml-10 my-10'>
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 '>
                 {topRating.map(item => (
                     <div key={item.id} className='bg-amber-50 w-60 p-4 rounded-lg space-y-2 relative shadow-md hover:shadow-lg transition'>
