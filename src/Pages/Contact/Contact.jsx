@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import blogImg from "../../assets/images/460.png";
 import banner from "../../assets/images/469.png";
 
-const Blog = () => {
+const Contact = () => {
     const [data, setData] = useState({ helpTopics: [], offices: [] });
 
     // JSON data fetch করা
@@ -27,7 +27,7 @@ const Blog = () => {
     };
 
     return (
-        <div className=" px-6 py-16 text-gray-700">
+        <div className=" px-10 py-16 text-gray-700">
             <ToastContainer />
             {/* Header */}
             <div className="text-center mb-12">
@@ -133,4 +133,4 @@ const Blog = () => {
     );
 };
 
-export default Blog;
+export default Contact;

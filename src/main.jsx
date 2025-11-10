@@ -8,8 +8,8 @@ import {
 import Routes from './Routes/Routes.jsx';
 import Home from './Pages/Home/Home.jsx';
 import About from './Pages/About/About.jsx';
-import Blog from './Pages/Blog/Blog.jsx';
 import PopularProduct from './Pages/Home/HomeComponents/PopularProduct.jsx';
+import Contact from './Pages/Contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
         element: <About></About>
       },
       {
-        path: "/blog",
-        element: <Blog></Blog>
+        path: "/contact",
+        element: <Contact></Contact>
       },
       {
         path: "/menu",
