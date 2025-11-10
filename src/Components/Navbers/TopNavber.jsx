@@ -51,7 +51,8 @@ const TopNavber = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <a className="btn bgcpr ">Login</a>
+
+                        <Link to="/auth/login" className='btn bgcpr'>Login</Link>
                     </div>
                 </div>
            </div>
