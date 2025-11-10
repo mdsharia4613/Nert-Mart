@@ -15,9 +15,11 @@ const Section3 = () => {
 
                 {/* ===== Right Side Content ===== */}
                 <div className="w-full md:w-1/2 space-y-5">
-                    <p className="text-sm text uppercase tracking-widest font-semibold">
-                        Our Performance
-                    </p>
+                    <div>
+                        <p className="text-sm text uppercase tracking-widest font-semibold">
+                            Our Performance</p>
+                            
+                    </div>
 
                     <h2 className="cpr text-3xl md:text-4xl font-semibold leading-snug">
                         Your Partner for <br /> e-commerce grocery solution
