@@ -4,7 +4,7 @@ import Navber from '../Components/Navbers/Navber';
 
 const Routes = () => {
     return (
-        <div>
+        <div className='container mx-auto '>
             <Navber></Navber>
             <Outlet></Outlet>
         </div>
