@@ -2,19 +2,19 @@ import React, { useState, useEffect } from 'react';
 
 const useData = () => {
     const [categorys, setCategorys] = useState([]);
-    const [bannerSection, setBannerSection] = useState([]);
-
+    const [cardsItems, setCardItems] = useState([]);
+    
     useEffect(() => {
-        fetch('/bannersection.json')
+        fetch("/product.json")
         .then(res => res.json())
-        .then(data => setBannerSection(data))
+        .then(data => setCardItems(data))
     } ,[])
     useEffect(() => {
         fetch('/category.json')
         .then(res =>  res.json())
         .then(data => setCategorys(data))
     } ,[])
-    return { categorys, bannerSection }
+    return { categorys, cardsItems }
 };
 
 export default useData;

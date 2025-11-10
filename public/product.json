@@ -6,12 +6,13 @@
         "brand": "SweetFarm",
         "price": {
             "current": 24.50,
-            "old": 27.00
+            "old": 27.50
         },
         "discount": "9%",
         "status": "Hot",
-        "image": "/images/products/milk-cake.png",
-        "rating": 5
+        "image": "https://i.ibb.co.com/qFk1ky9d/cake-removebg-preview.png",
+        "rating": 5.0,
+        "review": 150
     },
     {
         "id": 2,
@@ -24,8 +25,9 @@
         },
         "discount": "15%",
         "status": "Sale",
-        "image": "/images/products/organic-kiwi.png",
-        "rating": 4
+        "image": "https://i.ibb.co.com/nMjdG7Z6/Green-Organic-Kiwi-Box.jpg",
+        "rating": 4.0,
+        "review": 85
     },
     {
         "id": 3,
@@ -39,7 +41,8 @@
         "discount": "12%",
         "status": "New",
         "image": "/images/products/peach-pack.png",
-        "rating": 3
+        "rating": 3.0,
+        "review": 42
     },
     {
         "id": 4,
@@ -48,12 +51,13 @@
         "brand": "AppleTree",
         "price": {
             "current": 22.75,
-            "old": 25.00
+            "old": 25.50
         },
         "discount": "9%",
         "status": "Hot",
-        "image": "/images/products/red-apple.png",
-        "rating": 5
+        "image": "https://i.ibb.co.com/yBm0Vttk/Fresh-Red-Apple-Basket-removebg-preview.png",
+        "rating": 5.0,
+        "review": 120
     },
     {
         "id": 5,
@@ -66,8 +70,9 @@
         },
         "discount": "14%",
         "status": "Sale",
-        "image": "/images/products/potato-chips.png",
-        "rating": 4
+        "image": "https://i.ibb.co.com/Df9NPmhc/Crunchy-Potato-Chips-Mix.jpg",
+        "rating": 4.0,
+        "review": 95
     },
     {
         "id": 6,
@@ -76,12 +81,13 @@
         "brand": "GreenWorld",
         "price": {
             "current": 5.25,
-            "old": 6.00
+            "old": 6.60
         },
         "discount": "12%",
         "status": "New",
-        "image": "/images/products/lettuce.png",
-        "rating": 5
+        "image": "https://i.ibb.co.com/QjzjVppR/Fresh-Lettuce-Head-removebg-preview.png",
+        "rating": 5.0,
+        "review": 60
     },
     {
         "id": 7,
@@ -94,8 +100,9 @@
         },
         "discount": "15%",
         "status": "Hot",
-        "image": "/images/products/strawberry.png",
-        "rating": 5
+        "image": "https://i.ibb.co.com/jPXbH8ZL/Organic-Strawberry-Box-removebg-preview.png",
+        "rating": 5.0,
+        "review": 110
     },
     {
         "id": 8,
@@ -109,7 +116,8 @@
         "discount": "13%",
         "status": "Sale",
         "image": "/images/products/black-plum.png",
-        "rating": 2
+        "rating": 2.0,
+        "review": 25
     },
     {
         "id": 9,
@@ -123,7 +131,8 @@
         "discount": "8%",
         "status": "New",
         "image": "/images/products/custard-apple.png",
-        "rating": 4
+        "rating": 3.0,
+        "review": 40
     },
     {
         "id": 10,
@@ -132,12 +141,13 @@
         "brand": "RoastHub",
         "price": {
             "current": 12.99,
-            "old": 15.00
+            "old": 15.80
         },
         "discount": "13%",
         "status": "Hot",
-        "image": "/images/products/coffee-beans.png",
-        "rating": 5
+        "image": "https://i.ibb.co.com/Q786LdRf/Premium-Coffee-Beans-removebg-preview.png",
+        "rating": 5.0,
+        "review": 80
     },
     {
         "id": 11,
@@ -151,7 +161,8 @@
         "discount": "14%",
         "status": "Sale",
         "image": "/images/products/protein-bar.png",
-        "rating": 3
+        "rating": 3.0,
+        "review": 35
     },
     {
         "id": 12,
@@ -165,7 +176,8 @@
         "discount": "8%",
         "status": "New",
         "image": "/images/products/broccoli.png",
-        "rating": 5
+        "rating": 3.5,
+        "review": 28
     },
     {
         "id": 13,
@@ -179,7 +191,8 @@
         "discount": "12%",
         "status": "Sale",
         "image": "/images/products/chocolate-cake.png",
-        "rating": 5
+        "rating": 3.6,
+        "review": 32
     },
     {
         "id": 14,
@@ -193,7 +206,8 @@
         "discount": "7%",
         "status": "Hot",
         "image": "/images/products/apple-juice.png",
-        "rating": 4
+        "rating": 4.0,
+        "review": 50
     },
     {
         "id": 15,
@@ -202,12 +216,13 @@
         "brand": "Leafy",
         "price": {
             "current": 11.50,
-            "old": 13.00
+            "old": 13.30
         },
         "discount": "12%",
         "status": "New",
-        "image": "/images/products/green-tea.png",
-        "rating": 5
+        "image": "https://i.ibb.co.com/21bGt9vJ/Herbal-Green-Tea-Pack-removebg-preview.png",
+        "rating": 5.0,
+        "review": 65
     },
     {
         "id": 16,
@@ -221,7 +236,8 @@
         "discount": "9%",
         "status": "Hot",
         "image": "/images/products/kiwi-smoothie.png",
-        "rating": 4
+        "rating": 4.0,
+        "review": 72
     },
     {
         "id": 17,
@@ -235,7 +251,8 @@
         "discount": "15%",
         "status": "Sale",
         "image": "/images/products/strawberry-yogurt.png",
-        "rating": 2
+        "rating": 2.0,
+        "review": 20
     },
     {
         "id": 18,
@@ -249,7 +266,8 @@
         "discount": "10%",
         "status": "Hot",
         "image": "/images/products/cabbage.png",
-        "rating": 3
+        "rating": 3.0,
+        "review": 30
     },
     {
         "id": 19,
@@ -262,8 +280,9 @@
         },
         "discount": "7%",
         "status": "New",
-        "image": "/images/products/custard-shake.png",
-        "rating": 5
+        "image": "https://i.ibb.co.com/21bGt9vJ/Herbal-Green-Tea-Pack-removebg-preview.png",
+        "rating": 4.5,
+        "review": 95
     },
     {
         "id": 20,
@@ -277,7 +296,8 @@
         "discount": "10%",
         "status": "Sale",
         "image": "/images/products/peach-yogurt.png",
-        "rating": 3
+        "rating": 3.5,
+        "review": 38
     },
     {
         "id": 21,
@@ -286,12 +306,13 @@
         "brand": "SweetFarm",
         "price": {
             "current": 26.40,
-            "old": 29.00
+            "old": 29.40
         },
         "discount": "9%",
         "status": "Hot",
-        "image": "/images/products/vanilla-cake.png",
-        "rating": 5
+        "image": "https://i.ibb.co.com/4ZS1qm0c/Soft-Vanilla-Cream-Cake-removebg-preview.png",
+        "rating": 4.5,
+        "review": 105
     },
     {
         "id": 22,
@@ -304,8 +325,9 @@
         },
         "discount": "9%",
         "status": "New",
-        "image": "/images/products/nacho-chips.png",
-        "rating": 4
+        "image": "https://i.ibb.co.com/nMdSLT17/Baked-Nacho-Chips-removebg-preview.png",
+        "rating": 4.3,
+        "review": 50
     },
     {
         "id": 23,
@@ -319,12 +341,13 @@
         "discount": "8%",
         "status": "Sale",
         "image": "/images/products/milk-tea.png",
-        "rating": 2
+        "rating": 2.5,
+        "review": 18
     },
     {
         "id": 24,
         "category": "Black plum",
-        "name": "Black Plum Jam",
+        "name": "Baked Nacho Chips",
         "brand": "FruitCraft",
         "price": {
             "current": 10.40,
@@ -332,8 +355,9 @@
         },
         "discount": "13%",
         "status": "Hot",
-        "image": "/images/products/plum-jam.png",
-        "rating": 5
+        "image": "https://ibb.co.com/FLtmR2M2",
+        "rating": 3.6,
+        "review": 22
     },
     {
         "id": 25,
@@ -347,7 +371,8 @@
         "discount": "9%",
         "status": "Sale",
         "image": "/images/products/kiwi-juice.png",
-        "rating": 1
+        "rating": 1.0,
+        "review": 10
     },
     {
         "id": 26,
@@ -361,7 +386,8 @@
         "discount": "15%",
         "status": "New",
         "image": "/images/products/tomato.png",
-        "rating": 3
+        "rating": 3.0,
+        "review": 32
     },
     {
         "id": 27,
@@ -374,8 +400,9 @@
         },
         "discount": "12%",
         "status": "Hot",
-        "image": "/images/products/strawberry-jam.png",
-        "rating": 5
+        "image": "https://i.ibb.co.com/KzBzQYxC/Strawberry-Jam-Jar-removebg-preview.png",
+        "rating": 4.6,
+        "review": 70
     },
     {
         "id": 28,
@@ -389,7 +416,8 @@
         "discount": "14%",
         "status": "New",
         "image": "/images/products/peach-icecream.png",
-        "rating": 4
+        "rating": 4.0,
+        "review": 45
     },
     {
         "id": 29,
@@ -403,7 +431,8 @@
         "discount": "6%",
         "status": "Sale",
         "image": "/images/products/custard-dessert.png",
-        "rating": 2
+        "rating": 2.0,
+        "review": 20
     },
     {
         "id": 30,
@@ -416,7 +445,8 @@
         },
         "discount": "9%",
         "status": "Hot",
-        "image": "/images/products/honey-nuts.png",
-        "rating": 5
+        "image": "https://i.ibb.co.com/8kKd3Vh/Honey-Roasted-Nuts-removebg-preview.png",
+        "rating": 5.0,
+        "review": 55
     }
 ]
