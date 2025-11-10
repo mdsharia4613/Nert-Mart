@@ -1,63 +1,156 @@
-import React from 'react';
+import { Link } from "react-router-dom";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
+import logo from "../assets/images/logo.png";
 
 const Footer = () => {
     return (
-       <>
-            <footer className="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
-                <nav>
-                    <h6 className="footer-title">Services</h6>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
-                </nav>
-                <nav>
-                    <h6 className="footer-title">Company</h6>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
-                </nav>
-                <nav>
-                    <h6 className="footer-title">Social</h6>
-                    <div className="grid grid-flow-col gap-4">
-                        <a>
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                className="fill-current">
-                                <path
-                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-                            </svg>
-                        </a>
-                        <a>
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                className="fill-current">
-                                <path
-                                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-                            </svg>
-                        </a>
-                        <a>
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                className="fill-current">
-                                <path
-                                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-                            </svg>
-                        </a>
+        <div className="bg-[#f8f9fa]">
+            <footer className=" text-gray-700 b mt-10">
+                <div className="max-w-7xl mx-auto  py-10 grid md:grid-cols-6 sm:grid-cols-2 gap-8">
+                    {/* Logo and Info */}
+                    <div>
+                        <div className="flex items-center space-x-2 mb-3">
+                            <img
+                                src={logo}
+                                alt="Nest Logo"
+                                className="w-12"
+                            />
+                            <div>
+                                <h2 className="text-3xl heading font-bold">Nest</h2>
+                                <p className="text-xs text">
+                                    MART & GROCERY
+                                </p>
+                            </div>
+                        </div>
+                        <p>Awesome grocery store website
+                            template</p>
+                        
+                        <ul className="text-sm space-y-3 mt-5">
+                            <li className="flex items-start gap-2">
+                                <FaMapMarkerAlt className="mt-1 text-green-600" />
+                                <p><span className="cpr font-semibold">Address:</span> 5171 W Campbell Ave undefined Kent, Utah 53127 USA</p>
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <FaPhoneAlt className="text-green-600" />
+                                <div>
+                                    <span className="crp font-semibold">Call Us:</span> (+91)-540-025-124553
+                                </div>
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <FaEnvelope className="text-green-600" /> 
+                                <div>
+                                    <span className="cpr font-semibold">Email: </span>
+                                    sale@Nest.com
+                                </div>
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <FaClock className="text-green-600" /> 
+                                <div>
+                                    <span className="cpr font-semibold">Hours:</span> 10:00 - 18:00, Mon - Sat
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
+
+                    {/* Company */}
+                    <div>
+                        <h3 className="font-semibold mb-3 text-lg">Company</h3>
+                        <ul className="space-y-2 text-sm">
+                            <li><Link to="about">About Us</Link></li>
+                            <li><Link to="/delivery">Delivery Information</Link></li>
+                            <li><Link to="/privacy">Privacy Policy</Link></li>
+                            <li><Link to="/terms">Terms & Conditions</Link></li>
+                            <li><Link to="/contact">Contact Us</Link></li>
+                            <li><Link to="/support">Support Center</Link></li>
+                            <li><Link to="/careers">Careers</Link></li>
+                        </ul>
+                    </div>
+
+                    {/* Account */}
+                    <div>
+                        <h3 className="font-semibold mb-3 text-lg">Account</h3>
+                        <ul className="space-y-2 text-sm">
+                            <li><Link to="/signin">Sign In</Link></li>
+                            <li><Link to="/cart">View Cart</Link></li>
+                            <li><Link to="/wishlist">My Wishlist</Link></li>
+                            <li><Link to="/track-order">Track My Order</Link></li>
+                            <li><Link to="/help">Help Ticket</Link></li>
+                            <li><Link to="/shipping">Shipping Details</Link></li>
+                            <li><Link to="/compare">Compare Products</Link></li>
+                        </ul>
+                    </div>
+
+                    {/* Corporate */}
+                    <div>
+                        <h3 className="font-semibold mb-3 text-lg">Corporate</h3>
+                        <ul className="space-y-2 text-sm">
+                            <li><Link to="/vendor">Become a Vendor</Link></li>
+                            <li><Link to="/affiliate">Affiliate Program</Link></li>
+                            <li><Link to="/farm">Farm Business</Link></li>
+                            <li><Link to="/careers">Farm Careers</Link></li>
+                            <li><Link to="/suppliers">Our Suppliers</Link></li>
+                            <li><Link to="/accessibility">Accessibility</Link></li>
+                            <li><Link to="/promotions">Promotions</Link></li>
+                        </ul>
+                    </div>
+
+                    {/* Popular */}
+                    <div>
+                        <h3 className="font-semibold mb-3 text-lg">Popular</h3>
+                        <ul className="space-y-2 text-sm">
+                            <li><Link to="/">Milk & Flavoured Milk</Link></li>
+                            <li><Link to="/">Butter and Margarine</Link></li>
+                            <li><Link to="/">Eggs Substitutes</Link></li>
+                            <li><Link to="/">Marmalades</Link></li>
+                            <li><Link to="/">Sour Cream and Dips</Link></li>
+                            <li><Link to="/">Tea & Kombucha</Link></li>
+                            <li><Link to="/">Cheese</Link></li>
+                        </ul>
+                    </div>
+
+                   {/* Installtion app */}
+
+                    <div>
+                        <h3 className="font-semibold mb-3 text-lg">Install App</h3>
+                        
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                            {/* App Store */}
+                            <a
+                                href="https://www.apple.com/app-store/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="transition-transform hover:scale-105"
+                            >
+                                <img
+                                    src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                                    alt="Download on the App Store"
+                                    className="h-14"
+                                />
+                            </a>
+
+                            {/* Google Play */}
+                            <a
+                                href="https://play.google.com/store"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="transition-transform hover:scale-105"
+                            >
+                                <img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                    alt="Get it on Google Play"
+                                    className="h-14"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Bottom Section */}
+                <div className="border-t border-gray-300 py-4 text-center text-sm text-gray-600">
+                    © 2025 Nest Mart & Grocery. All Rights Reserved.
+                </div>
             </footer>
-       </>
+        </div>
     );
 };
 
