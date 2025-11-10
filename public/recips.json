@@ -2,6 +2,7 @@
     {
         "id": 1,
         "img": ".././src/assets/resipeImg/img1.png",
+        "title": "Simple & Fresh Margherita Pizza Recipe",
         "desh_name": "Classic Margherita Pizza",
         "date": "2025-01-12",
         "views": 1542,
@@ -10,6 +11,7 @@
     {
         "id": 2,
         "img": ".././src/assets/resipeImg/img2.png",
+        "title": "How to Make Perfect Chicken Biryani at Home",
         "desh_name": "Chicken Biryani",
         "date": "2025-02-05",
         "views": 4820,
@@ -18,6 +20,7 @@
     {
         "id": 3,
         "img": ".././src/assets/resipeImg/img3.png",
+        "title": "Healthy Vegan Buddha Bowl Guide",
         "desh_name": "Vegan Buddha Bowl",
         "date": "2025-03-18",
         "views": 2370,
@@ -26,6 +29,7 @@
     {
         "id": 4,
         "img": ".././src/assets/resipeImg/img4.png",
+        "title": "Soft & Gooey Chocolate Lava Cake",
         "desh_name": "Chocolate Lava Cake",
         "date": "2025-04-02",
         "views": 6195,
@@ -34,6 +38,7 @@
     {
         "id": 5,
         "img": ".././src/assets/resipeImg/img5.png",
+        "title": "Grilled Salmon with Homemade Herb Butter",
         "desh_name": "Grilled Salmon with Herb Butter",
         "date": "2025-04-20",
         "views": 2891,
@@ -42,6 +47,7 @@
     {
         "id": 6,
         "img": ".././src/assets/resipeImg/img6.png",
+        "title": "Restaurant Style Paneer Tikka Masala",
         "desh_name": "Paneer Tikka Masala",
         "date": "2025-05-11",
         "views": 3330,
@@ -50,6 +56,7 @@
     {
         "id": 7,
         "img": ".././src/assets/resipeImg/img7.png",
+        "title": "Quick Spaghetti Aglio e Olio in 10 Minutes",
         "desh_name": "Spaghetti Aglio e Olio",
         "date": "2025-05-29",
         "views": 1987,
@@ -58,6 +65,7 @@
     {
         "id": 8,
         "img": ".././src/assets/resipeImg/img8.png",
+        "title": "Traditional Korean Bibimbap Recipe",
         "desh_name": "Korean Bibimbap",
         "date": "2025-06-07",
         "views": 4120,
@@ -66,6 +74,7 @@
     {
         "id": 9,
         "img": ".././src/assets/resipeImg/img9.png",
+        "title": "Perfect Avocado Toast with Poached Egg",
         "desh_name": "Avocado Toast with Poached Egg",
         "date": "2025-06-21",
         "views": 1548,
@@ -74,6 +83,7 @@
     {
         "id": 10,
         "img": ".././src/assets/resipeImg/img10.png",
+        "title": "Classic Creamy Beef Stroganoff",
         "desh_name": "Beef Stroganoff",
         "date": "2025-07-03",
         "views": 2675,
@@ -82,6 +92,7 @@
     {
         "id": 11,
         "img": ".././src/assets/resipeImg/img11.png",
+        "title": "Rich & Flavorful Thai Green Curry",
         "desh_name": "Thai Green Curry",
         "date": "2025-07-18",
         "views": 3789,
@@ -90,6 +101,7 @@
     {
         "id": 12,
         "img": ".././src/assets/resipeImg/img12.png",
+        "title": "Soft and Moist Lemon Drizzle Cake",
         "desh_name": "Lemon Drizzle Cake",
         "date": "2025-08-01",
         "views": 2210,
@@ -98,6 +110,7 @@
     {
         "id": 13,
         "img": ".././src/assets/resipeImg/img13.png",
+        "title": "Easy One-Pan Shakshuka Breakfast",
         "desh_name": "Shakshuka",
         "date": "2025-08-15",
         "views": 1712,
@@ -106,6 +119,7 @@
     {
         "id": 14,
         "img": ".././src/assets/resipeImg/img14.png",
+        "title": "Garlic Butter Shrimp Pasta for Weeknights",
         "desh_name": "Garlic Butter Shrimp Pasta",
         "date": "2025-09-02",
         "views": 4503,
@@ -114,6 +128,7 @@
     {
         "id": 15,
         "img": ".././src/assets/resipeImg/img1.png",
+        "title": "Simple Fresh Classic Caesar Salad",
         "desh_name": "Classic Caesar Salad",
         "date": "2025-09-20",
         "views": 1324,
