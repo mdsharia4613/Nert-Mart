@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "img": "../src/assets/images/icon-1.png",
+        "name": "Best Prices & Offers",
+        "p": " We create modern, responsive and user-friendly "
+    },
+    {
+        "id": 2,
+        "img": "../src/assets/images/icon-2.png",
+        "name": "Wide Assortment",
+        "p": "Build interactive and high-performance user interfaces using React and modern tools. Read More"
+    },
+    {
+        "id": 3,
+        "img": "../src/assets/images/icon-3.png",
+        "name": "Free Delivery",
+        "p": "We develop secure and scalable server-side applications using Node.js and Express. Read More"
+    },
+    {
+        "id": 4,
+        "img": "../src/assets/images/icon-4.png",
+        "name": "Easy Returns",
+        "p": "Complete eCommerce website setup including payment gateway and inventory management. Read More"
+    },
+    {
+        "id": 5,
+        "img": "../src/assets/images/icon-5.png",
+        "name": "100% Satisfaction",
+        "p": "Improve your website ranking and visibility on Google with our SEO strategies. Read More"
+    },
+    {
+        "id": 6,
+        "img": "../src/assets/images/icon-6.png",
+        "name": "Great Daily Deal",
+        "p": "Craft intuitive and visually appealing user experiences with modern design tools. Read More"
+    }
+]
