@@ -40,7 +40,7 @@ const TopProduct = () => {
 
                         {/* Divider */}
                         <div className='flex items-center justify-center my-2'>
-                            <img className='w-32' src={line} alt="" />
+                            <img className='w-full' src={line} alt="" />
                         </div>
 
                         {/* Current Price */}
