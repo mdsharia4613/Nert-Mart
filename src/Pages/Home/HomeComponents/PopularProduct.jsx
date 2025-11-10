@@ -31,11 +31,11 @@ const PopularProduct = () => {
     };
 
     return (
-        <div className='max-w-[1400px] mx-auto ml-10 my-10'>
+        <div className='max-w-[1400px] mx-auto  my-10 '>
             <h2 className='text-2xl cpr font-bold my-8'>Propuler Product</h2>
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5'>
                 {topRating.map(item => (
-                    <div key={item.id} className='bg-amber-50 w-60 p-4 rounded-lg space-y-2 relative shadow-md hover:shadow-lg transition'>
+                    <div key={item.id} className='bg-amber-50 w-60 h-90 p-4 rounded-lg space-y-2 relative shadow-md hover:shadow-lg transition'>
                         <div className='bg-white flex justify-center rounded-lg'>
                             <img className='w-36 h-36 object-contain' src={item.image} alt={item.name} />
                         </div>
@@ -68,13 +68,13 @@ const PopularProduct = () => {
                         </div>
 
                         {/* Current Price */}
-                        <div className='flex justify-center items-center text-[20px] font-semibold cpr'>
+                        <div className='flex justify-center items-center text-[20px] font-semibold cpr '>
                             <FaDollarSign />
                             <span>{item.price.current}</span>
                         </div>
 
                         {/* Cart Icon */}
-                        <div className='absolute right-3 bottom-30 text-white'>
+                        <div className='absolute right-3 bottom-28 text-white'>
                             <button className='bg-[#3bb77e] rounded-full p-2 cursor-pointer hover:bg-green-500'>
                                 <IoIosCart fontSize={20} />
                             </button>
