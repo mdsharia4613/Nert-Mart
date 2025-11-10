@@ -16,7 +16,7 @@ const BannerSection = () => {
                     <h2 className="text-xl md:text-xl font-bold leading-snug mb-3 ">
                         Everyday Fresh & Clean with Our Products
                     </h2>
-                    <button className="bg-green-500 px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition-all">
+                    <button className="bg-[#3bb77e] px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition-all">
                         Shop Now
                     </button>
                 </div>
@@ -33,7 +33,7 @@ const BannerSection = () => {
                     <h2 className="text-lg md:text-xl font-semibold leading-snug mb-3 ">
                         Fresh Vegetables Big Discount
                     </h2>
-                    <button className="bg-green-500 px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition-all">
+                    <button className="bg-[#3bb77e] px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition-all">
                         Shop Now
                     </button>
                 </div>
@@ -50,7 +50,7 @@ const BannerSection = () => {
                     <h2 className="text-lg md:text-xl font-semibold leading-snug mb-3">
                         Make Your Breakfast Healthy & Easy
                     </h2>
-                    <button className="bg-green-500 px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition-all">
+                    <button className="bg-[#3bb77e] px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600 transition-all">
                         Shop Now
                     </button>
                 </div>

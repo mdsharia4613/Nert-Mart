@@ -1,40 +1,63 @@
-
-import line from '../../../assets/images/line.png'
+import { FaDollarSign, FaStar } from 'react-icons/fa6';
+import line from '../../../assets/images/line.png';
 import useData from '../../../Hook/useData';
+import { IoIosCart } from 'react-icons/io';
 
 const TopProduct = () => {
-    const { cardsItems } =useData();
-    const topRating = cardsItems.filter(card => card.rating > 4)
+    const { cardsItems } = useData();
+    const topRating = cardsItems.filter(card => card.rating > 4);
+
     return (
-        <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5'>
-            {
-              topRating.slice(0, 12).map( item => (
-                <div key={item.id} className='bg-amber-50 w-56 p-4 rounded-lg'>
-                      <div className='bg-white flex justify-center rounded-lg'>
-                          <img className='w-36 h-36 ' src={item.image} alt="" />
-                      </div>
-                      <h2 className='cpr font-semibold text-'>{item.name}</h2>
-                      <p>{item.brand}</p>
-                      <div className='flex justify-between'>
-                          <p>{item.rating}</p>
-                          <p>{item.review}</p>
-                      </div>
-                      <div className='flex justify-between cpr font-medium'>
-                        <p>Originally</p>
-                          <p >{item.price.old}</p>
-                      </div>
-                      <div>
-                        <img className='w-30' src={line} alt="" />
-                      </div>
-                      <p className='flex justify-center'>
-                          {item.price.current}
-                      </p>
-                      
+        <div className='max-w-[1400px] mx-auto ml-10'>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 '>
+                {topRating.map(item => (
+                    <div key={item.id} className='bg-amber-50 w-60 p-4 rounded-lg space-y-2 relative shadow-md hover:shadow-lg transition'>
+                        <div className='bg-white flex justify-center rounded-lg'>
+                            <img className='w-36 h-36 object-contain' src={item.image} alt={item.name} />
+                        </div>
 
+                        <h2 className='cpr font-semibold text-[16px]'>{item.name}</h2>
+                        <p className='text-sm text-gray-600'>{item.brand}</p>
 
-                </div>
-              ))  
-            }
+                        {/* Rating + Review */}
+                        <div className='flex justify-start gap-5 items-center'>
+                            <div className='flex text-orange-500'>
+                                {[...Array(5)].map((_, i) => (
+                                    <FaStar key={i} />
+                                ))}
+                            </div>
+                            <p className='text-gray-600 text-sm'>({item.review})</p>
+                        </div>
+
+                        {/* Old Price */}
+                        <div className='flex justify-between text-sm font-medium cpr'>
+                            <p>Originally</p>
+                            <div className='flex items-center'>
+                                <FaDollarSign />
+                                <span className='line-through'>{item.price.old}</span>
+                            </div>
+                        </div>
+
+                        {/* Divider */}
+                        <div className='flex items-center justify-center my-2'>
+                            <img className='w-32' src={line} alt="" />
+                        </div>
+
+                        {/* Current Price */}
+                        <div className='flex justify-center items-center text-[20px] font-semibold cpr'>
+                            <FaDollarSign />
+                            <span>{item.price.current}</span>
+                        </div>
+
+                        {/* Cart Icon */}
+                        <div className='absolute right-3 bottom-30 text-white'>
+                            <button className='bg-[#3bb77e] rounded-full p-2 cursor-pointer hover:bg-green-500'>
+                                <IoIosCart fontSize={20} />
+                            </button>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };
