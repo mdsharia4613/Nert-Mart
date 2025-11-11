@@ -13,6 +13,7 @@ import Contact from './Pages/Contact/Contact.jsx';
 import AuthLayout from './Routes/AuthLayout.jsx';
 import Login from './Auth/Login.jsx';
 import Signup from './Auth/Signup.jsx';
+import Blog from './Pages/Blog/Blog.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/menu",
         element : <PopularProduct></PopularProduct>
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
       }
     ]
   },
